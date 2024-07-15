@@ -1,0 +1,79 @@
+
+/* body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  body.dark-mode {
+    background-color: #000000;
+    color: #ffffff;
+  } */
+
+/* .flexlayout__layout.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.flexlayout__layout.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.switch-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000; 
+} */
+
+/* App.css */
+
+/* :root.flexlayout__layout {
+  --layout-background-light: #ffffff;
+  --layout-background-dark: #333333;
+}
+
+.dark .flexlayout__layout {
+  background-color: var(--layout-background-dark); 
+  color: #ffffff; 
+} */
+
+/* :root{
+  --layout-background-light: #ffffff;
+  --layout-background-dark: #333333;
+} */
+
+.flexlayout__layout {
+  /* background-color: var(--layout-background-light);  */
+  /* color: #000000;  */
+  --color-background: white;
+}
+
+.dark .flexlayout__layout{
+  /* background-color: var(--layout-background-dark); */
+  /* color: black; */
+  --color-text: white;
+  --color-background: #010e19;
+}
+
+.ant-modal .ant-modal-content{
+  background-color: white;
+}
+
+.dark.ant-modal .ant-modal-content{
+  background-color: #010e19;
+  .ant-form-item .ant-form-item-label >label{
+    color: white;
+  }
+  .ant-select-selector{
+    background: rgb(235, 230, 230);
+  }
+  .ant-input-outlined{
+    background: rgb(235, 230, 230);
+  }
+
+  .ant-modal .ant-modal-header{
+    background: rgb(235, 230, 230);
+  }
+  
+}
